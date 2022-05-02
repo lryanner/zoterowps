@@ -88,12 +88,18 @@ function OnAction(control) {
 function GetImage(control) {
     const eleId = control.Id
     switch (eleId) {
-        case "btnShowMsg":
-            return "images/1.svg"
-        case "btnShowDialog":
-            return "images/2.svg"
-        case "btnShowTaskPane":
-            return "images/3.svg"
+        case "InsertZoteroCitationButton":
+            return "images/addEditZoteroCitation0.png"
+        case "InsertZoteroNoteButton":
+            return "images/addZoteroNote.png"
+        case "InsertZoteroBibliographyButton":
+            return "images/addEditZoteroBibliography.png"
+        case "ZoteroSetDocPrefs":
+            return "images/setZoteroDocPrefs-small.png"
+        case "RefreshZotero":
+            return "images/refresh-small.png"
+        case "ZoteroRemoveCodes":
+            return "images/unlink-small.png"
         default:
             ;
     }
